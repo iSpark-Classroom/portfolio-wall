@@ -1,0 +1,21 @@
+
+.genre_button{
+    background-color: #B20710;
+    padding: .75rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: .75rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    border: none;
+        &:hover{
+            transform: scale(1.1);
+
+        }
+}
