@@ -1,0 +1,164 @@
+@import 'colors';
+.genre-div{
+    padding: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       h1{
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+       }
+
+    .mobile_view{
+        display: none;
+          opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(100%);
+        @media (width <= 500px){
+            display: block;
+        }
+        ul{
+            list-style: none;
+            color: white;
+            font-weight: bold;
+            background-color: $join_div;
+            text-align: center;
+            border-radius: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+
+                li{
+                    border-bottom: 1px solid gray;
+                    cursor: pointer;
+                }
+        }
+    }
+    .desktop_view{
+          opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(100%);
+        display: none;
+        @media(width > 501px){
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+    }
+    .show{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+                    
+                }
+    .movies_div{
+        background-color: $join_div;
+        width: 100%;
+        margin-top: 2rem;
+        padding: 1rem 4rem;
+        gap: 1rem;
+        color: white;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+            .all_movies{
+                display: grid;
+                grid-template-columns: repeat(6,1fr);
+                    @media (width <= 500px){
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                    }
+                    .movieList{
+                        margin-right:1rem 1rem;
+                        overflow: hidden;
+                        display: inline-block;
+                        
+
+                        img{
+                            border-radius: 3rem;
+                            cursor: pointer;
+                            width: 20rem;
+                            height: 25rem;
+                            padding: 1rem 1rem;
+                            transition: transform 0.3s ease;
+                                &:hover{
+                                    transform: scale(1.1);
+                                }
+                        }
+                    }
+            }
+    }
+  
+}
+
+.showmore{
+    padding: 1rem 2rem;
+    background-color: #B20710;
+    border: none;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+       &:hover{
+        transform: scale(1.1);
+    }
+
+}
+.genre_button_text{
+     padding: 1rem 2rem;
+    background-color: #B20710;
+    border: none;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer; 
+        transition: transform 0.3s ease;
+       &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.search-form{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    align-items: center;
+    margin: 2rem 4rem;
+  
+    @media (width <= 414px){
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .hero_email{
+        padding: 1rem 2rem;
+        font-weight: bold;
+        border: none;
+        font: 14px;
+        border-radius: 1rem;
+        font-size: 14px;
+    }
+    .clear-search{
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+        @media (width < 60rem) {
+            right: 23px;
+            top: 32%;
+}
+}
+}

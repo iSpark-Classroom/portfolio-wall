@@ -1,0 +1,31 @@
+{
+  "name": "cam-movies",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "js-cookie": "^3.0.5",
+    "next": "15.3.3",
+    "next-auth": "^5.0.0-beta.28",
+    "next-intl": "^4.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "sass": "^1.89.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@netlify/next": "^1.4.9",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "24.0.1",
+    "@types/react": "19.1.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4"
+  }
+}

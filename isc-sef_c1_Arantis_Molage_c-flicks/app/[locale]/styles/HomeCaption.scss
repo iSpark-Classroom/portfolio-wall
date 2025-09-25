@@ -1,0 +1,52 @@
+@import '../styles/colors';
+.caption_div{
+background-color: $btn-bg;
+padding: 2em 3rem;
+color: white;
+text-align: right;
+font-size: 1.5rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
+font-weight: bold;
+opacity: 0;
+transition: all 1s;
+filter: blur(5px);
+transform: translateX(50%);
+
+        @media(width<=500px){
+            font-size: 1rem;
+            text-align: center;
+            transform: translateY(50%);
+        }
+        .captionAbout{
+            border: 1px solid white;
+            border-radius: 1rem;
+            padding: 1rem 2rem;
+            background-color: $btn-bg;
+            color: white;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            margin-top: 1rem;
+            align-items: center;
+            margin-left: 100rem;
+                &:hover{
+                    transform: scale(1.1);
+
+                }
+                @media(width <= 414px){
+
+                    margin-left: 5rem;
+                }
+            
+        }
+}
+ .show{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+         @media(width<=500px){
+           
+            transform: translateY(0);
+        }
+                    
+                }
