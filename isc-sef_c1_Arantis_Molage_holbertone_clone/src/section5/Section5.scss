@@ -1,0 +1,42 @@
+.s5main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8rem 25rem;
+    gap: 5rem;
+    margin-top: 3rem;
+    background-color: #F1F2F2;
+        @media(width<= 500px){
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 2rem;
+        }
+
+   
+         
+       .s5right_div{
+        padding: 2rem;
+
+            .s5meet{
+                color: red;
+                margin-bottom: 2rem;
+            }
+            .s5community{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            .s5text1{
+                color: #747474;
+                line-height: 2;
+                margin-top: 3rem;
+            }
+            .s5text2{
+                color: #747474;
+                line-height: 2;
+                margin-top: 3rem;
+                 span{
+                    font-style: italic;
+                    font-weight: bold;
+                 }
+            }
+       } 
+}
