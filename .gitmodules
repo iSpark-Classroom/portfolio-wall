@@ -1,0 +1,6 @@
+[submodule "projects/isc-sef_c1_Ngongang_Arantis_c_flicks"]
+	path = projects/isc-sef_c1_Ngongang_Arantis_c_flicks
+	url = https://github.com/Arantisjr/c_flicks_frontend
+[submodule "projects/isc-sef_c1_Ngongang_Arantis_holbertone_clone"]
+	path = projects/isc-sef_c1_Ngongang_Arantis_holbertone_clone
+	url = https://github.com/Arantisjr/holberton_website_clone
