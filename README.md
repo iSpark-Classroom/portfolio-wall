@@ -33,7 +33,7 @@ git submodule add https://github.com/[your-username]/[your-project] projects/isc
 
 **Example:**
 ```bash
-git submodule add https://github.com/jane-doe/weather-app projects/isc-sef_cohort_jane_doe
+git submodule add https://github.com/jane-doe/weather-app projects/isc-sef_c2_jane_doe
 ```
 
 Replace:
