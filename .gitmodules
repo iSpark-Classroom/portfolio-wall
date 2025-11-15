@@ -4,3 +4,18 @@
 [submodule "projects/isc-sef_c1_Ngongang_Arantis_holbertone_clone"]
 	path = projects/isc-sef_c1_Ngongang_Arantis_holbertone_clone
 	url = https://github.com/Arantisjr/holberton_website_clone
+[submodule "projects/isc-sef_c2_Mbunganu_Lewiston_university_landing_page"]
+	path = projects/isc-sef_c2_Mbunganu_Lewiston_university_landing_page
+	url = git@github.com:Lewiston/edusity.git
+[submodule "projects/isc-sef_c2_Mbunganu_Lewiston_freepik_landing_page_clone"]
+	path = projects/isc-sef_c2_Mbunganu_Lewiston_freepik_landing_page_clone
+	url = git@github.com:Lewiston/react-landing-lewiston.git
+[submodule "projects/isc-sef_c2_Mbunganu_Lewiston_restaurant_website"]
+	path = projects/isc-sef_c2_Mbunganu_Lewiston_restaurant_website
+	url = git@github.com:Lewiston/tomato.git
+[submodule "projects/isc-sef_c2_Mbunganu_Lewiston_ejara_website_clone"]
+	path = projects/isc-sef_c2_Mbunganu_Lewiston_ejara_website_clone
+	url = git@github.com:Lewiston/ejara_website_clone.git
+[submodule "projects/isc-sef_c2_Mbunganu_Lewiston_portfolio_website"]
+	path = projects/isc-sef_c2_Mbunganu_Lewiston_portfolio_website
+	url = git@github.com:Lewiston/portfolio.git
